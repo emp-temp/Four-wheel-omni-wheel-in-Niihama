@@ -37,7 +37,7 @@ class PS4Controller(object):
                 elif event.type == pygame.JOYBUTTONUP:
                     self.button_data[event.button] = False
                 elif event.type == pygame.JOYHATMOTION:
-                    self.hat_datapevent.hat = event.value
+                    self.hat_data[event.hat] = event.value
 
 
                 os.system('cls')
