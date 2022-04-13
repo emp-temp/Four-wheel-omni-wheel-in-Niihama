@@ -3,54 +3,39 @@
 
 # DEMO
 
-This program is 
+This program is Omni Wheel program for first grade.
 
 # Features
 
-"hoge"のセールスポイントや差別化などを説明する
+This program is written using a relatively simple calculation method. (Library etc.)
 
 # Requirement
 
-"hoge"を動かすのに必要なライブラリなどを列挙する
-
-* huga 3.5.2
-* hogehuga 1.0.2
+* pygame
+* motor
 
 # Installation
 
-Requirementで列挙したライブラリなどのインストール方法を説明する
-
 ```bash
-pip install huga_package
+pip install pygame
+
+pip install motor
 ```
 
 # Usage
 
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
-
 ```bash
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
+git clone https://github.com/emp-temp/Four-wheel-omni-wheel-in-Niihama.git
+cd Four-wheel-omni-wheel-in-Niihama/Four-wheel-omni-wheel-in-Niihama
+python main.py
 ```
 
 # Note
 
-注意点などがあれば書く
+It's not very clean code.
+The author is a beginner.
 
 # Author
 
-作成情報を列挙する
-
-* 作成者
-* 所属
-* E-mail
-
-# License
-ライセンスを明示する
-
-"hoge" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
-
-社内向けなら社外秘であることを明示してる
-
-"hoge" is Confidential.
+* emp-temp
+* Niihama National College of Technology

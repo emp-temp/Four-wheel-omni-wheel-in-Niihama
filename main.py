@@ -1,11 +1,26 @@
-import ps4_controller
+import ps4_controller as ps4
 
 
 import os
 
-axis_data = None
-button_data = None
-hat_data = None
+class Omni_wheel:
+    def __init__(self):
+        self.axis_data = None
+        self.button_data = None
+        self.hat_data = None
+        self.controller = ps
+
+    def move(self):
+        while True:
+            self.axis_data, self.button_data, self.hat_data = self.controller.listen()
+            Vx = self.axis_data[0]
+            Vy = self.axis_data[1]
+            V1 = Vx
+            V2 = Vy * -1
+            V3 = Vx * -1
+            V4 = Vy
+
+
 
 
 if __name__ == "__main__":

@@ -1,7 +1,7 @@
+import os
+
 import ps4_controller
 
-
-import os
 
 axis_data = None
 button_data = None
