@@ -1,5 +1,6 @@
-# Name Omni in Niihama college
+# Name
 
+Omni in Niihama Colleges
 
 # DEMO
 
